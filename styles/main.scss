@@ -9,7 +9,7 @@
 	
 }*/
 .wrapper-header{
-	width: 100%;
+	
 	background: url(../../build/img/header_desk.jpg);
 	background-position: top center;
 	background-size: cover;
@@ -18,17 +18,16 @@
 .wrapper{
 	margin: 0 auto;
 }
-.center{
-
-	/*width: 500px;
+/*.center{
+width: 500px;
 	height: 200px;
 	position: absolute;
 	left: 49.9%;
 	top: 34.2%;
-	margin: -200px 0 0 -250px;*/
+	margin: -200px 0 0 -250px;
 
 }
-
+*/
 .foto1:hover, .foto2:hover, .foto3:hover, .foto4:hover{
 	opacity: 0.5;
 }
@@ -195,5 +194,6 @@ box-shadow: 0 1px 0 #eee;
 }
 footer{
 	border-top: 4px solid #ff4e50;
+	width: 100%;
 	 
 }

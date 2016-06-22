@@ -1,5 +1,29 @@
  $(document).ready(function(){
 
+ 
+$('.grid').masonry({
+
+     itemSelector: '.grid-item',
+     columnWidth: 200
+ });
+ var elem = document.querySelector('.grid');
+ var msnry = new Masonry(elem, {
+     // options
+     itemSelector: '.grid-item',
+     columnWidth: 200
+ });
+
+ // element argument can be a selector string
+ //   for an individual element
+ var msnry = new Masonry('.grid', {
+     // options
+ });
+
+
+
+
+
+
   jQuery.ajaxSetup({
               xhr: function() {
                       //return new window.XMLHttpRequest();
@@ -29,12 +53,13 @@
           
           $(window).resize(function() {
            if ($(window).width() > 960) {
-             $('.grid'). masonry({
-               itemSelector: '.grid-item',
+             var msnry = new Masonry('.grid', {
+              itemSelector: '.grid-item',
                 columnWidth: 50,
-                 gutter: 15
-              
-             });
+                gutter: 20
+             
+     
+ });
            }
           else {
             $('.grid'). masonry({
@@ -58,7 +83,7 @@
         var html = tmpl($('#grid-template').html(), data);
              $('.grid').remove();
              $('.galery').append(html);
-            // ISOTOP
+         
           $(window).resize(function() {
            if ($(window).width() > 960) {
              $('.grid').masonry({

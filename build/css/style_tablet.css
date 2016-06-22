@@ -1,10 +1,11 @@
-@media screen and (min-width: 321px) and (max-width: 768px) {
-  body {
-    background-position: top; }
+@media screen and (min-width: 321px) and (max-width: 500px) {
   .wrapper {
-    height: 1700px; }
+    margin: 0 auto;
+    min-width: 321px;
+    width: 235%; }
   .header {
-    width: 748px;
+    max-width: 500px;
+    width: 180%;
     height: 700px;
     margin: 0 auto; }
   .logo {
@@ -232,7 +233,7 @@
   .comment4 {
     margin-top: 17px; }
   .grid {
-    width: 640px;
+    width: 500px;
     margin-bottom: 216px;
     column-count: 2;
     column-gap: 5px;
@@ -243,7 +244,7 @@
     -moz-column-gap: 20px;
     column-gap: 20px; }
   .galery {
-    width: 640px;
+    width: 500px;
     margin-top: 50px;
     margin: 0 auto; }
   .img-title {
@@ -254,7 +255,337 @@
     color: white;
     text-transform: uppercase; }
   .grid-item {
+    width: 200px;
+    height: 300px;
+    margin: 5px;
+    padding: 0; }
+  .grid-item img {
+    max-width: 100%;
+    max-height: auto;
+    display: block; }
+  .grid-item--width2 {
+    height: 250px;
+    margin: 5px; }
+  .discover {
+    margin-bottom: 0; }
+  .search {
+    width: 500px;
+    margin: 0 auto; }
+  .position-search {
+    margin-bottom: 141px; }
+  .footer-position {
+    width: 687px;
+    margin: 0 auto;
+    position: relative; }
+  .logo-footer {
+    margin-top: 34px; }
+  .footer-position ul {
+    width: 55px;
+    height: 86px;
+    color: #666;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    position: absolute;
+    top: 8px;
+    left: 223px;
+    bottom: -45px;
+    cursor: pointer; }
+  .footer-position ul li {
+    padding-bottom: 3px; }
+  ul li a:hover {
+    color: #335; }
+  .footer-position ul li:first-child {
+    position: relative;
+    top: 23px;
+    left: 173px;
+    color: #333;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 0; }
+  .footer-position ul li:nth-child(2) {
+    color: #333;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700; }
+  .top-footer {
+    margin-left: 42px;
+    margin-bottom: 7px; }
+  .bottom-footer {
+    text-align: bottom;
+    margin-left: 11px; }
+  .right-logo {
+    margin-top: 40px;
+    float: right;
+    width: 120px;
+    height: 60px; }
+  .position-search input {
+    margin-left: 6px; }
+  .search_partner {
+    margin-right: 7px; } }
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  body {
+    background-position: top; }
+  .wrapper {
+    margin: 0 auto;
+    min-width: 500px;
+    width: 150%; }
+  .header {
+    max-width: 748px;
+    width: 70%;
+    height: 700px;
+    margin: 0 auto; }
+  .logo {
+    margin: 45px 0 0 38px; }
+  .menu {
+    margin-top: 38px;
+    margin-right: 5%;
+    width: 185px;
+    height: 50px;
+    float: right; }
+    .menu a {
+      float: left;
+      padding: 5px 0 0 31px;
+      width: 60px;
+      display: block;
+      text-decoration: none;
+      color: white;
+      font-family: "Montserrat";
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 27px; }
+    .menu a:hover {
+      color: #de8384; }
+  #sign_up {
+    padding: 4px 2px 2px 5px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center; }
+  #sign_up:hover {
+    border: 2px solid #de8384;
+    color: #de8384; }
+  .header h1 {
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 500px;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: center; }
+  .header h2 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 31px;
+    margin-right: 5px; }
+  .find_partner {
+    width: 220px;
+    height: 38px;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 38px;
+    margin: 0 auto;
+    margin-top: 34px;
+    display: block;
+    text-align: center; }
+  .find_partner:hover {
+    background-color: #de8384; }
+  .slider {
+    width: 748px;
+    height: 500px;
+    clear: both;
+    margin: 0 auto;
+    position: relative; }
+    .slider h3 {
+      color: #333;
+      font-family: "Montserrat";
+      font-size: 22px;
+      font-weight: 700;
+      margin: 0 auto;
+      margin-top: 97px;
+      margin-right: 4px;
+      text-align: center; }
+  .mark1, .mark2, .mark3 {
+    position: absolute;
+    visibility: visible;
+    top: 20px; }
+  .mark1 {
+    border-radius: 4px;
+    top: 199px; }
+  .mark2 {
+    border-radius: 4px;
+    top: 219px;
+    left: 253px; }
+  .mark3 {
     width: 300px;
+    height: 240px;
+    border-radius: 4px;
+    top: 200px;
+    left: 513px; }
+  .step1, .step2, .step3 {
+    width: 70px;
+    height: 20px;
+    background-color: #ff4e50;
+    border-radius: 10px;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px; }
+  .step1, .step3 {
+    margin-top: 70px;
+    margin-left: 19px; }
+  .step2 {
+    margin-top: 98px;
+    margin-left: 21px; }
+  .title1, .title2, .title3 {
+    width: 198px;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px; }
+  .title {
+    width: 198px; }
+  .title1, .title2, .title3, .text1, .text2, .text3 {
+    margin-left: 19px;
+    margin-top: 18px; }
+  .text1, .text2, .text3 {
+    width: 200px;
+    height: 45px;
+    color: #ccc;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300; }
+  .slider1 {
+    margin-top: 35px;
+    margin-right: 20px;
+    float: left;
+    width: 236px;
+    height: 500px; }
+  .slider2 {
+    margin-top: 35px;
+    margin-right: 20px;
+    float: left;
+    width: 236px;
+    height: 500px; }
+  .slider3 {
+    margin-top: 35px;
+    float: left;
+    width: 236px;
+    height: 500px; }
+  .meet {
+    width: 480px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    clear: both; }
+  .meet h3 {
+    padding-right: 5px;
+    text-align: center;
+    color: #333;
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: 700; }
+  .meet h4 {
+    padding-top: 15px;
+    color: #333;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center; }
+  .partner1, .partner2, .partner3, .partner4 {
+    float: left;
+    width: 222px;
+    height: 255px; }
+  .partner3, .partner4 {
+    margin-bottom: 53px; }
+  .partner2, .partner4 {
+    float: right; }
+  .see-other-partners {
+    width: 190px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    color: #ff4e50;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+    clear: both;
+    text-align: center; }
+  .see-other-partners:hover {
+    background-color: white;
+    color: #de8384;
+    border: 2px solid #de8384; }
+  .foto1, .foto2, .foto3, .foto4 {
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
+  .foto1 {
+    margin: 0 41px 0 51px; }
+  .circle1 {
+    left: 136px;
+    top: 117px; }
+  .circle2 {
+    left: 134px; }
+  .circle3 {
+    left: 135px; }
+  .circle4 {
+    top: 123px;
+    left: 132px; }
+  .comment {
+    margin-top: 12px; }
+  .comment3 {
+    margin-top: 16;
+    line-height: 17px; }
+  .comment4 {
+    margin-top: 17px; }
+  .grid {
+    width: 500px;
+    margin-bottom: 216px;
+    column-count: 2;
+    column-gap: 5px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px; }
+  .galery {
+    width: 500px;
+    margin-top: 50px;
+    margin: 0 auto; }
+  .img-title {
+    position: relative;
+    top: 150px;
+    left: 50px;
+    font-family: "Montserrat";
+    color: white;
+    text-transform: uppercase; }
+  .grid-item {
+    width: 220px;
     height: 300px;
     margin: 5px;
     padding: 0; }
