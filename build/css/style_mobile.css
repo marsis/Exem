@@ -81,8 +81,8 @@
     display: block; }
   .find_partner:hover {
     background-color: #de8384; }
-  .slider {70px;
-    height:
+  .slider {
+    width: 301px;
     height: 816px;
     clear: both;
     margin: 0 auto;
